@@ -16,7 +16,18 @@
 
 DEVICE_PATH := device/samsung/a52sxq
 
+# Derp Flags
+DERP_BUILDTYPE=Community
+DERP_VERSION_APPEND_TIME_OF_DAY=true
+EXTRA_UDFPS_ICONS=true
+TARGET_NOT_USES_BLUR=true
+
+# Overlays
 DEVICE_PACKAGE_OVERLAYS += $(DEVICE_PATH)/overlay
+
+# Remove Packages
+PRODUCT_PACKAGES += \
+    RemovePackages
 
 # call the common setup
 $(call inherit-product, device/samsung/sm7325-common/common.mk)
