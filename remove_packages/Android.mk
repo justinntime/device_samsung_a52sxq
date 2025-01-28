@@ -5,57 +5,16 @@ LOCAL_MODULE := RemovePackages
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
 
-# don't remove \
-GoogleExtShared \
-DocumentsUIGoogle \
-GooglePackageInstaller \
-PrebuiltDeskClockGoogle \
-SoundPickerPrebuilt \
-AndroidAutoStubPrebuilt \
-ConfigUpdater \
-DeviceIntelligenceNetworkPrebuilt \
-DevicePersonalizationPrebuiltPixel2023 \
-GoogleDialer \
-GoogleOneTimeInitializer \
-GoogleRestorePrebuilt \
-PrebuiltGmsCoreSc \
-AndroidPlatformServices \
-SettingsIntelligenceGooglePrebuilt \
-SetupWizardPrebuilt \
-Velvet \
-WellbeingPrebuilt \
-EmergencyInfoGoogleNoUi \
-GoogleServicesFramework \
-PixelSetupWizard \
-com.google.android.dialer.support \
-LocationHistoryPrebuilt \
-StorageManagerGoogle \
-WebViewGoogle-Stub \
-TagGoogle \
-TrichromeLibrary-Stub \
-MarkupGoogle \
-AICorePrebuilt \
-PrebuiltBugle \
-LatinIMEGooglePrebuilt \
-Phonesky \
-GooglePrintRecommendationService \
-Flipendo \
-GoogleTTS \
-Photos \
-more...
-
-#vendor/gms
 LOCAL_OVERRIDES_PACKAGES += \
-    SafetyHubPrebuilt \
-    CalculatorGooglePrebuilt \
-    CalendarGooglePrebuilt \
-    Chrome-Stub \
-	Photos \
-    PrebuiltGmail \
+    CalculatorGoogle \
+    CalendarGoogle \
+    Chrome64 \
+    Gmail2 \
+    Photos \
     Maps \
+    Drive \
     talkback \
-    FilesPrebuilt \
-    ScribePrebuilt \
+    YouTube \
     Accord \
     GameSpace \
     FossifyGallery
